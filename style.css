@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: black;
+    margin: 0 auto;
+}
+
+.page1 {
+    background-image: url(./img/bg1.png);
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 920px;
+}
+
+:root {
+    --color1: white;
+    --color2: #FEDF00;
+    --p: 18px;
+    --style-text: 'Fira Sans', sans-serif;
+    --h3: 31px;
+    --color3: rgba(28, 28, 28, 0);
+}
+
+header {
+    padding-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    color: var(--color1);
+    font-size: var(--p);
+    font-family: var(--style-text);
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 900px;
+    margin-top: 26px;
+    font-weight: 200;
+}
+
+.textbox1 {
+    display: block;
+    margin: 0 auto;
+    width: 987px;
+    margin-top: 275px;
+    text-align: center;
+}
+
+.h {
+    font-size: 54px;
+    font-family: var(--style-text);
+    -webkit-text-stroke: 1.5px var(--color2);
+    color: var(--color3);
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+h1 {
+    font-size: 54px;
+    font-family: var(--style-text);
+    color: var(--color1);
+    text-align: center;
+    margin-top: 9px;
+}
+header a {
+    text-decoration: none;
+}
+
+.button1 {
+    background-color: var(--color3);
+    color: var(--color1);
+    font-size: 30px;
+    height: 56px;
+    width: 250px;
+    border-color: var(--color1);
+}
+
+.button1:hover {
+    color: var(--color2);
+    border-color: var(--color2);
+}
+
+.page2 {
+    background-image: url(./img/bg2.png);
+    width: 1920px;
+    height: 920px;
+    margin: 0;
+    display: flex;
+}
+h3 {
+    font-family: var(--style-text);
+    font-size: var(--h3);
+    color: var(--color2);
+}
+
+p, a {
+    color: var(--color1);
+    font-family: var(--style-text);
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    font-size: var(--p);
+}
+
+.p-str:hover {
+    text-decoration: underline;
+}
+
+.textbox2 {
+    display: block;
+    margin: 0 auto;
+    width: 768px;
+    padding-top: 290px;
+}
+.o {
+    width: 600px;
+    height: 200px;
+}
+.content-p2 {
+    display: flex;
+    max-width: 1400px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.page3 {
+    display: block;
+    margin: 0 auto;
+    max-width: 1400px;
+    margin-top: 200px;
+}
+
+.card {
+    background-color: #333333;
+    width: 337px;
+    height: 474px;
+    display: block;
+}
+
+.bold {
+    font-weight: 500;
+    color: var(--color2);
+}
+.light {
+    font-weight: 200;
+}
+.textbox-card {
+    margin-left: 10px;
+}
+.button-card {
+    width: 125px;
+    height: 29px;
+    font-family: var(--style-text);
+    font-size: var(--p);
+    color: var(--color2);
+    border-color: var(--color2);
+    background-color: var(--color3);
+}
+.button-card:hover {
+    box-shadow: 1.5px 1.5px 1px var(--color1);
+}
+.card-card {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1400px;
+    justify-content: space-between;
+}
+.page4 {
+    background-image: url(./img/bg3.png);
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 1920px;
+    height: 920px;
+}
+.pg4 {
+    display: flex;
+    max-width: 1400px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.textbox3{
+    display: block;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.textt {
+    width: 694px;
+    height: 36px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: var(--color1);
+    font-size: var(--p);
+}
+textarea {
+    width: 694px;
+    height: 238px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: var(--color1);
+    font-size: var(--p);
+}
+::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: var(--style-text);
+    font-size: var(--p);
+    font-weight: 200;
+
+}
+.button-p4 {
+    width: 217px;
+    height: 42px;
+    font-family: var(--style-text);
+    color: var(--color1);
+    background-color: rgba(28, 28, 28, 0);
+    font-size: var(--p);
+    border-color: var(--color1);
+    margin-top: 30px;
+}
+.button-p4:hover {
+    color: var(--color2);
+    border-color: var(--color2);
+}
+.zg {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.foto {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1400px;
+    justify-content: space-between;
+}
+.f1 .f1{
+    display: block;
+    margin-bottom: 18px;
+}
+.f2 {
+    margin: 0 18px 0 18px;
+}
+.f4 {
+    margin-bottom: 18px;
+}
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: var(--color1);
+    margin-top: 60px;
+}
+footer {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 1400px;
+    margin-top: 30px;
+}
+footer ul {
+    display: block;
+    margin: 0 0 20px 0;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: var(--style-text);
+    padding: 0;
+}
+footer ul li {
+    padding-bottom: 6px;
+}
+footer a {
+    margin: 0;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: var(--style-text);
+}
+.t p {
+    font-size: 14px;
+    margin-left: 10px;
+}
+.t {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    width: 300px;
+}
+.t2, .t2 p {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    width: 200px;
+    font-size: 14px;
+    font-family: var(--style-text);
+    margin-left: 10px;
+}
+.f-textbox {
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 22px;
+    margin-right: 0;
+}
+.txt2 {
+    display: flex;
+    align-items: flex-end;
+    
+}
+.page2-1 {
+    background-image: url(./img/pg2-1.png);
+    width: 1920px;
+    height: 920px;
+}
+.block1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1400px;
+    margin-top: 200px;
+}
+.page2-2 {
+    background-image: url(./img/pg2-2.png);
+    width: 1920px;
+    height: 920px;
+}
+.block2 {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.block3 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.page2-3 {
+    background-image: url(./img/pg2-3.png);
+    width: 1920px;
+    height: 920px;
+}
+.textbox2-1 {
+    width: 575px;
+
+}
+.textbox2-2, .textbox2-3 {
+    width: 700px;
+    margin-top: 200px;
+
+}
+li:hover, a:hover {
+    text-decoration: underline;
+}
+
+
